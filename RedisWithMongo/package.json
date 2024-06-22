@@ -1,0 +1,20 @@
+{
+  "name": "rediswithmongo",
+  "version": "1.0.0",
+  "description": "redis with mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "author": "shyam developer",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "redis": "^4.6.5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "staticapi",
+  "version": "1.0.0",
+  "description": "this is a static api",
+  "main": "staticapi.js",
+  "scripts": {
+    "test": "echo",
+    "start": "node staticapi.js",
+    "dev": "nodemon http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "shyam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
